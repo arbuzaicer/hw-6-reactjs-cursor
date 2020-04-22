@@ -1,0 +1,40 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.post-form > input {
+  width: 750px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.post-form > select {
+  margin-left: auto;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid black;
+}
+.post-form > select > option {
+  font-size: 1.1em;
+  width: 550px;
+}
+.submit-btn {
+  width: 150px !important;
+  margin-left: auto;
+  background-color: rgba(10, 12, 92, 0.91) !important;
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit-btn:hover {
+  background-color: rgba(10, 12, 92, 0.79) !important;
+}

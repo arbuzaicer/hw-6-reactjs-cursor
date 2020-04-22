@@ -1,0 +1,74 @@
+.post-data {
+  width: 65vw;
+  position: relative;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 10fr;
+  grid-row-gap: 0.5em;
+  background: linear-gradient(35deg, #3d4f52, #142035, #353535) no-repeat;
+  margin: 10px 0;
+}
+
+.user-block > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.post-info {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.user-info {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  font-weight: 800;
+}
+.post-settings {
+  margin-left: 10px;
+  color: #72989c;
+  font-weight: 600;
+}
+
+.main-content {
+  display: grid;
+  grid-row-gap: 0.5em;
+}
+.main-content > img {
+  width: 70%;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.bottom-data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 2/4;
+}
+.bottom-data > li {
+  list-style: none;
+  display: grid;
+  font-size: 1.2em;
+  justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  transition: 0.5s;
+}
+
+/*Hover effects*/
+
+.arrow-btn:hover,
+.bottom-data > li:hover {
+  color: #547276;
+  cursor: pointer;
+}
